@@ -9,6 +9,8 @@
  import { StatusBar } from 'react-native';
 
 import HomeScreen from './src/screens/HomeScreen';
+import SearchDestination from './src/screens/SearchScreen/indes';
+import  SearchResult  from './src/screens/SearchResult/index';
 
 const App = () => {
 
@@ -19,6 +21,9 @@ const App = () => {
         barStyle={'dark-content'}
       />
       <HomeScreen/>
+      {/* <SearchDestination/> */}
+      {/* <SearchResult/> */}
+
     </>
         
   );
